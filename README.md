@@ -21,6 +21,8 @@ Then you can execute:
 cat websites.txt | python -m scraper
 ```
 
+This module was created with Python 3.8, and it wasn't tested with other Python versions.
+
 ### Docker Container
 
 First, build the environment into the folder of the Dockerfile.

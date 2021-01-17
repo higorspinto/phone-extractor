@@ -19,7 +19,7 @@ Examples:
 12124659555 - Not Valid
 ```
 
-To scrape the website logos, the Phone Extractor looks for the string pattern `logo` (case insensitive) in all the images found on the page and returns a list containing all the matches found.
+To scrape the website logos, the Phone Extractor looks for the string pattern `logo` (case insensitive) in the urls and css classes of all the images found on the page and returns a list containing all the matches found.
 
 ## How to run
 

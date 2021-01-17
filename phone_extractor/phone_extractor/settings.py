@@ -15,12 +15,13 @@ NEWSPIDER_MODULE = 'phone_extractor.phone_extractor.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'phone_extractor (+http://www.yourdomain.com)'
+USER_AGENT = "Chrome/61.0.3163.100"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
 import logging
-LOG_LEVEL = logging.ERROR
+LOG_LEVEL = logging.INFO
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32

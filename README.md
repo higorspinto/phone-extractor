@@ -25,7 +25,7 @@ To scrape the website logos, the Phone Extractor looks for the string pattern `l
 
 This software can be run in two different environments: a Python virtual environment or a docker container.
 
-### Python
+### 1 - Python
 
 First, install the package dependencies:
 
@@ -41,7 +41,7 @@ cat websites.txt | python -m scraper
 
 This module was created with Python 3.8, and it wasn't tested with other Python versions.
 
-### Docker Container
+### 2 - Docker Container
 
 First, build the environment into the folder of the Dockerfile.
 
